@@ -3,6 +3,21 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] — 2026-09-25
+
+### Fixed
+- **No playbooks listed when the Documents folder has been moved** (for example to another drive).
+  The app built the path to the saves folder by hand and never saw a moved Documents folder. It now
+  asks Windows where Documents really is.
+
+### Added
+- **Choose the playbooks folder** button in step 2, for playbooks kept anywhere else. Pick the
+  game's `saves` folder (or the "EA SPORTS College Football 27" folder above it) and the list
+  switches straight away; the choice is remembered.
+- Step 2 now says which folder the playbook list was read from, and what to do when it's empty.
+
+[1.0.2]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.0.2
+
 ## [1.0.1] — 2026-09-25
 
 ### Fixed

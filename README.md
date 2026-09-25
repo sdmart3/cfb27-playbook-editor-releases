@@ -41,7 +41,8 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
 
 ### How to use it
 
-1. Pick your custom playbook.
+1. Pick your custom playbook. They are read from the game's `saves` folder in your Documents; if
+   yours are somewhere else, click **Choose the playbooks folder**.
 2. Under **Build on**, choose the playbook mod you have enabled (one that adds sets or plays), or the
    game's own play sheet if you don't use one.
 3. Order your sets and plays, and star your favourites.
@@ -66,7 +67,7 @@ playbook mod you build on is updated.
 Each release includes a `.sha256` file. To check the zip you downloaded:
 
 ```powershell
-Get-FileHash .\PlaybookEditor-v1.0.1-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PlaybookEditor-v1.0.2-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the published checksum.
