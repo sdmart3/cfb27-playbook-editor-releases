@@ -3,6 +3,14 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.3] — 2026-09-25
+
+### Fixed
+- **Choose the playbooks folder ran past the edge of the panel** in step 2. The buttons now size to
+  fit and wrap on a narrow window.
+
+[1.0.3]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.0.3
+
 ## [1.0.2] — 2026-09-25
 
 ### Fixed

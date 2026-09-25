@@ -67,7 +67,7 @@ playbook mod you build on is updated.
 Each release includes a `.sha256` file. To check the zip you downloaded:
 
 ```powershell
-Get-FileHash .\PlaybookEditor-v1.0.2-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PlaybookEditor-v1.0.3-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the published checksum.
