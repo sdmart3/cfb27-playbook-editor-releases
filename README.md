@@ -24,7 +24,8 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
 - **Windows 10 or 11 (64-bit).** Everything else the app needs is inside the folder. The window uses
   the Microsoft Edge WebView2 runtime, which ships with Windows 10 and 11; if it is missing, the
   launcher opens the same tool in an Edge app window instead.
-- **College Football 27**, found automatically in Steam or the EA app.
+- **College Football 27**, found automatically in Steam or the EA app. If it isn't, click **Choose the
+  game folder** in step 1 and pick the folder the game is installed in.
 - **The Mod Manager, opened at least once since the last game update.** The app reads the game
   through the Mod Manager's own cache, so there is nothing else to set up.
 
@@ -65,7 +66,7 @@ playbook mod you build on is updated.
 Each release includes a `.sha256` file. To check the zip you downloaded:
 
 ```powershell
-Get-FileHash .\PlaybookEditor-v1.0.0-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PlaybookEditor-v1.0.1-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the published checksum.

@@ -3,6 +3,27 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] — 2026-09-25
+
+### Fixed
+- **"College Football 27 was not found" on EA app installs.** The EA app names the game's folder
+  "EA SPORTS College Football 27" and the app only looked for "College Football 27". It now asks the
+  Mod Manager's own settings where the game is first, then checks Steam's and the EA app's install
+  records in Windows, and tries both folder names.
+- **"Check again" could not find a fixed install without restarting the app.** A failed search was
+  remembered for the whole session. It isn't any more.
+- **A hand-edited config with single backslashes was silently ignored.** `C:\Program Files\...`
+  typed straight into a config file now works.
+- **The Mod Manager was reported as out of date whenever the game was not found.** Its cache can only
+  be checked against the game, so until the game is found it now just says the Mod Manager was found.
+
+### Added
+- **Choose the game folder** button in step 1, shown when the game isn't found automatically. Pick
+  the folder and the app saves it; no files to edit. Choosing the game folder with the Mod Manager
+  button now says that's the game folder.
+
+[1.0.1]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.0.1
+
 ## [1.0.0] — 2026-09-24
 
 First public release. Every feature below has been run in the game.
