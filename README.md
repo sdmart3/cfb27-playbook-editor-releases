@@ -1,8 +1,8 @@
 # Playbook Editor
 
 A Windows app for **EA Sports College Football 27** custom playbooks. It puts your formation sets
-and plays in the order you want on the play-call screen, and adds a **Favorites** formation that
-holds the plays you call most, taken from any formation.
+and plays in the order you want on the play-call screen, and lets you build your own **formation tabs** and
+**custom sets** from the plays you call most, taken from any formation.
 
 It reads your own files, on your own machine. Nothing is uploaded anywhere.
 
@@ -37,7 +37,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
 |---|---|
 | **Play order** | Drag sets and plays into the order you want. One order serves all your custom playbooks. |
 | **Sort buttons** | **A–Z** sorts sets or plays by name. **By type** groups a set's plays into runs, options, RPOs, play action, passes and trick plays, using the game's own play types. Plays added by a mod get a group of their own. Every play shows its type. |
-| **Favorites** | Star any play and it goes into a new formation on the play-call screen. Each favourite keeps the formation it was designed for, so it lines up and runs exactly like the original, motion included. Plays from mods work too. |
+| **Custom formations and sets** | Star any play and it goes into one of your own formation tabs (Favorites, Red Zone, anything you name) or into a custom set at the top of one of the game's formations. Each play keeps the set it was designed for, so it lines up and runs exactly like the original, motion included. Plays from mods work too. |
 
 ### How to use it
 
@@ -45,7 +45,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
    yours are somewhere else, click **Choose the playbooks folder**.
 2. Under **Build on**, choose the playbook mod you have enabled (one that adds sets or plays), or the
    game's own play sheet if you don't use one.
-3. Order your sets and plays, and star your favourites.
+3. Order your sets and plays. Pick where stars go under **Star adds to**, then star your plays.
 4. **Build.** The mod lands in the `mods-to-import` folder beside the app. Import it in the Mod
    Manager. If you built on a mod, disable the original and enable the new copy: it carries
    everything the original does.
@@ -67,7 +67,7 @@ playbook mod you build on is updated.
 Each release includes a `.sha256` file. To check the zip you downloaded:
 
 ```powershell
-Get-FileHash .\PlaybookEditor-v1.0.3-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PlaybookEditor-v1.1.0-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the published checksum.

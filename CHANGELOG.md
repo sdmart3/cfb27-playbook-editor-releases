@@ -3,6 +3,25 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] — 2026-09-26
+
+### Added
+- **Your own formation tabs.** Make as many as you like (Favorites, Red Zone, anything you name), and
+  add, rename, reorder or delete them in step 4.
+- **Custom sets at the top of the game's formations.** For example, a "Fav Split" as the first set in
+  Shotgun, ahead of your usual order. A set from another formation keeps its own alignment, so an
+  I-Form set in the Shotgun tab still lines up under centre.
+- **Star adds to** in step 3 chooses where a starred play goes: one of your tabs, or a custom set at
+  the top of any formation.
+
+### Changed
+- Your play order is applied first and custom sets are added after it, so they stay at the top of
+  their formation.
+- Rebuilding from a playbook that already has custom sets replaces them rather than duplicating them.
+- Existing Favorites carry over unchanged.
+
+[1.1.0]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.1.0
+
 ## [1.0.3] — 2026-09-25
 
 ### Fixed
