@@ -50,7 +50,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
    Manager. If you built on a mod, disable the original and enable the new copy: it carries
    everything the original does.
 
-Build again whenever you change the order or your Favorites, after a game update, and after the
+Build again whenever you change the order or your custom sets, after a game update, and after the
 playbook mod you build on is updated.
 
 ### Is it safe?
@@ -59,6 +59,14 @@ playbook mod you build on is updated.
   picked, with a fresh gameplan and audibles. If that name already exists, the app asks first and
   backs up the old file.
 - **Built mods go to `mods-to-import` only.** Never copy files into the Mod Manager's own Mods folder.
+
+---
+
+### Moving to a new version
+
+Unzip the new version into its own folder. To keep your settings, either copy the old `config`
+folder across, or use **Import from a mod you built** in step 4 and pick the "(playbook edits)" mod in
+your Mod Manager.
 
 ---
 

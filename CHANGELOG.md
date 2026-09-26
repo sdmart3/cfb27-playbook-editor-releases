@@ -13,6 +13,9 @@ Versions follow [Semantic Versioning](https://semver.org/).
   I-Form set in the Shotgun tab still lines up under centre.
 - **Star adds to** in step 3 chooses where a starred play goes: one of your tabs, or a custom set at
   the top of any formation.
+- **Import from a mod you built** (step 4). Moving from an older version, or lost your settings? Pick
+  the "(playbook edits)" mod in your Mod Manager, keep the original mod under **Build on**, and your
+  custom formations, custom sets and play order come back. Your current settings are kept aside.
 
 ### Changed
 - Your play order is applied first and custom sets are added after it, so they stay at the top of
