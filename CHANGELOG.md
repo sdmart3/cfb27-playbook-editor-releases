@@ -3,6 +3,20 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] — 2026-09-27
+
+### Added
+- **Remove plays from a playbook.** In step 3, the cross on any play (or a whole set) marks it for
+  removal; **Remove from playbook** rebuilds your playbook without them. Every other play keeps its
+  place, audibles and gameplan, a set left empty goes too, and the old file is backed up first. Close
+  the game before removing. Special-teams sets can't be emptied.
+
+### Changed
+- The README's setup section points to the **Choose the game folder** and **Choose the playbooks
+  folder** buttons instead of hand-editing a settings file.
+
+[1.2.0]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.2.0
+
 ## [1.1.0] — 2026-09-26
 
 ### Added

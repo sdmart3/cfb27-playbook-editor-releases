@@ -37,6 +37,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
 |---|---|
 | **Play order** | Drag sets and plays into the order you want. One order serves all your custom playbooks. |
 | **Sort buttons** | **A–Z** sorts sets or plays by name. **By type** groups a set's plays into runs, options, RPOs, play action, passes and trick plays, using the game's own play types. Plays added by a mod get a group of their own. Every play shows its type. |
+| **Remove plays** | Mark plays (or whole sets) with the cross and remove them from your playbook. Everything else keeps its place, audibles and gameplan; the old file is backed up first. |
 | **Custom formations and sets** | Star any play and it goes into one of your own formation tabs (Favorites, Red Zone, anything you name) or into a custom set at the top of one of the game's formations. Each play keeps the set it was designed for, so it lines up and runs exactly like the original, motion included. Plays from mods work too. |
 
 ### How to use it
@@ -75,7 +76,7 @@ your Mod Manager.
 Each release includes a `.sha256` file. To check the zip you downloaded:
 
 ```powershell
-Get-FileHash .\PlaybookEditor-v1.1.0-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PlaybookEditor-v1.2.0-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the published checksum.
