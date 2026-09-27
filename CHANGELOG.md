@@ -15,6 +15,9 @@ Versions follow [Semantic Versioning](https://semver.org/).
 - The README's setup section points to the **Choose the game folder** and **Choose the playbooks
   folder** buttons instead of hand-editing a settings file.
 
+### Fixed
+- Step 5's **New playbook name** field showed even when there was nothing to put in a new playbook.
+
 [1.2.0]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.2.0
 
 ## [1.1.0] — 2026-09-26
