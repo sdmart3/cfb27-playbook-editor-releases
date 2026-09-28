@@ -3,6 +3,20 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] — 2026-09-27
+
+### Fixed
+- **Works with Mod Manager 1.1.0.5.** Its cache is laid out differently, and loading a playbook
+  against the game's own play sheet failed with "offset out of range" whenever 1.1.0.5 was the
+  newest Mod Manager on your PC. Both the old and the new Mod Manager now work.
+- **Removing plays could flood a playbook's coach suggestions.** On a playbook the game made (or one
+  built by an older tool), removing even one play turned hundreds of leftover hidden rows into live
+  suggestions, well past the game's 20 per situation. Removing now keeps exactly the suggestions
+  the playbook had, minus the plays you removed. If you removed plays from such a playbook with
+  1.2.0, restore it from the `backups` folder beside the app and remove them again.
+
+[1.2.1]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.2.1
+
 ## [1.2.0] — 2026-09-27
 
 ### Added
