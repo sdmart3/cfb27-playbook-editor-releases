@@ -36,6 +36,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
 | | |
 |---|---|
 | **Play order** | Drag sets and plays into the order you want. One order serves all your custom playbooks. |
+| **Tab order** | Put the formation tabs in the order you want on the play-call screen, your own tabs included. |
 | **Sort buttons** | **A–Z** sorts sets or plays by name. **By type** groups a set's plays into runs, options, RPOs, play action, passes and trick plays, using the game's own play types. Plays added by a mod get a group of their own. Every play shows its type. |
 | **Remove plays** | Mark plays (or whole sets) with the cross and remove them from your playbook. Everything else keeps its place, audibles and gameplan; the old file is backed up first. |
 | **Custom formations and sets** | Star any play and it goes into one of your own formation tabs (Favorites, Red Zone, anything you name) or into a custom set at the top of one of the game's formations. Each play keeps the set it was designed for, so it lines up and runs exactly like the original, motion included. Plays from mods work too. |
@@ -46,7 +47,7 @@ Windows SmartScreen will warn you on first run, because the app is not code-sign
    yours are somewhere else, click **Choose the playbooks folder**.
 2. Under **Build on**, choose the playbook mod you have enabled (one that adds sets or plays), or the
    game's own play sheet if you don't use one.
-3. Order your sets and plays. Pick where stars go under **Star adds to**, then star your plays.
+3. Order your formation tabs, sets and plays. Pick where stars go under **Star adds to**, then star your plays.
 4. **Build.** The mod lands in the `mods-to-import` folder beside the app. Import it in the Mod
    Manager. If you built on a mod, disable the original and enable the new copy: it carries
    everything the original does.

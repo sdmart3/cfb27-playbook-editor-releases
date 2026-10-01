@@ -3,6 +3,24 @@
 All notable changes to this project are documented here.
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.3.0] — 2026-10-01
+
+### Added
+- **Formation tabs in your own order.** The new **Formation tabs** list at the top of step 3 sets the
+  order of the tabs on the play-call screen: drag them, use the arrows, or sort A–Z. Your own tabs
+  (Favorites, Red Zone, …) are in the list too, so one can go first. **Game's order** puts the tabs
+  back. Like the play order, it serves all your custom playbooks. Kickoff and kick return formations
+  stay where they are.
+- The **Formation** list in step 3 now follows your tab order, and clicking a tab opens it.
+- **Import from a mod you built** brings back the tab order as well.
+
+### Fixed
+- Renaming one of your own tabs twice in quick succession lost the second rename.
+- If the mod you build on moved (a new Mod Manager version in a new folder, for example), the app now
+  says it can't find it, instead of saying it doesn't change the play sheet.
+
+[1.3.0]: https://github.com/sdmart3/cfb27-playbook-editor-releases/releases/tag/v1.3.0
+
 ## [1.2.1] — 2026-09-27
 
 ### Fixed
